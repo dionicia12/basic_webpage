@@ -25,25 +25,20 @@ h1
     cursor: pointer;
     width: 175px;
 }
-.main {
+.main 
+{
     padding: 20px;
     text-align: left;
     font-size: 20px;
     background: #1abc9c;
     color: white; 
-
-.column1 {
-    flex: 50%;
-    max-width: 50%;
+    width: 60%;
+    height: 200px;
+    border: 1px solid blue;
+    box-sizing: border-box;
 }
-
-.column2 {
-    flex: 50%;
-    max-width: 50%;
-}
-
 .footer {
     padding: 20px;
     text-align: left;
-    background: #ddd;
+    background: lightgray;
 }
