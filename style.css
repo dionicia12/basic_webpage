@@ -25,12 +25,22 @@ h1
     cursor: pointer;
     width: 175px;
 }
-.header {
+.main {
     padding: 20px;
     text-align: left;
     font-size: 20px;
     background: #1abc9c;
     color: white; 
+
+.column1 {
+    flex: 50%;
+    max-width: 50%;
+}
+
+.column2 {
+    flex: 50%;
+    max-width: 50%;
+}
 
 .footer {
     padding: 20px;
