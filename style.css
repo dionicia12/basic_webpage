@@ -1,0 +1,39 @@
+h1 
+{
+    text-align: center;
+    font-size: 50px;
+    color: darkmagenta;
+}
+#one
+{
+    border-radius: 2px;
+    border: 1px solid brown;
+    display: flex; 
+    justify-content: space-around;
+}
+.button 
+{
+    border-radius: 8px;
+    background-color: bisque;
+    color: Brown;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-display: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 175px;
+}
+.header {
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    background: #1abc9c;
+    color: white; 
+
+.footer {
+    padding: 20px;
+    text-align: left;
+    background: #ddd;
+}
