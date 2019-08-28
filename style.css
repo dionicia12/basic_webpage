@@ -27,18 +27,28 @@ h1
 }
 .main 
 {
-    padding: 20px;
-    text-align: left;
     font-size: 20px;
     background: #1abc9c;
     color: white; 
-    width: 60%;
-    height: 200px;
     border: 1px solid blue;
-    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    
 }
-.footer {
+.paragraph
+{
+    text-align: left;
+    flex: 60%;
+}
+
+.column
+{
+    flex: 30%;
+}
+.footer 
+{
     padding: 20px;
     text-align: left;
     background: lightgray;
+    flex-direction: column-reverse;
 }
